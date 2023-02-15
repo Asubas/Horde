@@ -1,0 +1,86 @@
+/* Стилизую главную страницу. */
+
+body {
+    margin-top: -23px;
+    margin-bottom: 0px;
+    background-image: url('https://sun9-88.userapi.com/impg/HVkNsxXz2_xeaamcqXSZacYLsJxbymiJ2dJHjg/EPcsOSkuovc.jpg?size=1280x886&quality=95&sign=25e600868c398bc2d31ed03dae2e2cf4&c_uniq_tag=Sjc9tmjUveeP75Kn969Y0CWCdGqNygo32nteEwsjXPc&type=album');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.main_present{
+    margin-top: 28px;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0px;
+}
+/* Стилизую навигацию */
+.list_navigation{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+ul li {
+    list-style: none;
+    padding-left: 30px;
+    margin-bottom: 50px ;
+    }   
+/* Стилизую кнопки */
+
+.button_guide{
+    width: 130px;
+    height: 100px;
+    border: 9px solid rgba(87,87,70,0.5);
+    border-radius: 10%;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(44 170 169 / 83%);
+}
+.close_window{
+    position: relative;
+    top: 15px;
+    left: 620px;
+}
+/* Стилизую выпадающие окна */
+
+.prioriti {
+    background-color: #aa7926fc;
+    width: 1358px;
+    height: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+.visually_hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.modal_show{
+    display: block;
+    animation: bounce 0.6s;
+    }
+.test{
+    padding: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    opacity: 0.5;
+}
+a:hover{
+    color: blue;
+    border-bottom: 2px solid ;
+    cursor: pointer;
+}
