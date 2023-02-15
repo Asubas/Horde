@@ -38,7 +38,7 @@
 // };
 const links = [
     {
-      dataId: 'Twins',
+      dataId: 'twins',
       src: 'img/twins.png',
     },
     {
