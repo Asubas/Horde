@@ -7,8 +7,8 @@
 }
 .close_pets{
     position: relative;
-    left: 470px;
-    bottom: 5px;
+    left: 490px;
+    top: -580px;
 }
 .pets_img{
     max-width: 165px;
@@ -22,4 +22,12 @@
     justify-content: center;
     align-items: baseline;
     padding: 0;
+}
+.pets_img:hover{
+    animation: zoom 3s;
+}
+@keyframes zoom {
+    0%{
+    transform: scale(1.2);
+    }
 }
