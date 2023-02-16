@@ -38,18 +38,26 @@ const pets = [
 ];
 
 
-const pets_show = document.querySelector(".button_pets");
-const pets_back = document.querySelector(".div_pets");
-const pets_close = document.querySelector(".close_pets")
-pets_show.addEventListener("click", function () {
-    pets_back.classList.remove("visually_hidden");
-    pets_back.classList.add("modal_show");
-    console.log("qweqwe");
+const pets_show = document.querySelector('.button_pets');
+const pets_back = document.querySelector('.div_pets');
+const pets_close = document.querySelector('.close_pets')
+const hidden_table = document.querySelector('.prioriti')
+
+pets_show.addEventListener('click', function () {
+  if(hidden_table.classList.contains('modal_show')){
+    hidden_table.classList.remove('modal_show');
+    hidden_table.classList.add('visually_hidden');
+    pets_back.classList.remove('visually_hidden');
+    pets_back.classList.add('modal_show');
+  }else{
+    pets_back.classList.remove('visually_hidden');
+    pets_back.classList.add('modal_show');
+  }
   });
 
   pets_close.addEventListener('click',function(){
-    pets_back.classList.remove("modal_show");
-    pets_back.classList.add("visually_hidden");
+    pets_back.classList.remove('modal_show');
+    pets_back.classList.add('visually_hidden');
   })
 
 
