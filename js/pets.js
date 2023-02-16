@@ -31,6 +31,10 @@ const pets = [
       dataId: 'night_cat',
       src: 'img/pets/night_cat_guide.png',
     },
+    {
+      dataId: 'bamby',
+      src: 'img/pets/bamby_guide.png',
+    },
 ];
 
 
