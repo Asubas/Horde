@@ -8,7 +8,7 @@
 .close_pets{
     position: relative;
     left: 490px;
-    top: -580px;
+    top: -820px;
 }
 .pets_img{
     max-width: 165px;
@@ -30,4 +30,10 @@
     0%{
     transform: scale(1.2);
     }
+}
+
+/* Кнопочки петов */
+.button_pet{
+    background:none;
+    border: none;
 }

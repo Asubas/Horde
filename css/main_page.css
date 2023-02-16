@@ -54,7 +54,7 @@ ul li {
     border-radius: 20px;
 }
 .visually_hidden{
-    /* position: absolute; */
+    position: absolute; 
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -64,6 +64,8 @@ ul li {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    top: 0px;
+    left: 0px;
 }
 .modal_show{
     display: block;
