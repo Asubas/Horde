@@ -1,6 +1,5 @@
 .div_pets{
     width: 1000px;
-    height: 100%;
     background-color: #aa7926fc;
     margin: auto;
     padding: 20px;
@@ -11,15 +10,12 @@
     align-content: end;
     position: absolute;
     width: 100%;
-    
-    /* justify-content: start; */
     top: 0;
-    /* left: 0; */
 }
 .close_pets{
     position: relative;
     left: 977px;
-    top: 250px;
+    top: 270px;
 }
 .pets_img{
     max-width: 165px;

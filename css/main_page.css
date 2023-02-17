@@ -1,12 +1,24 @@
 /* Стилизую главную страницу. */
 
 body {
-    margin-top: -23px;
-    margin-bottom: 0px;
+    margin: 0;
     background-image: url('https://sun9-88.userapi.com/impg/HVkNsxXz2_xeaamcqXSZacYLsJxbymiJ2dJHjg/EPcsOSkuovc.jpg?size=1280x886&quality=95&sign=25e600868c398bc2d31ed03dae2e2cf4&c_uniq_tag=Sjc9tmjUveeP75Kn969Y0CWCdGqNygo32nteEwsjXPc&type=album');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    
+}
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #701111fc;
+    margin-top:auto;
+    height: 50px;
 }
 .main_present{
     margin-top: 28px;
