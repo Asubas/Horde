@@ -1,4 +1,3 @@
-/* stylelint-disable selector-class-pattern */
 
 .test__button-pm{
     top: -20px;
@@ -10,7 +9,6 @@
     border: 2px solid green;
     background-color: #d14646;
 }
-
 .test__button-pm:hover{
     color: blue;
     cursor: pointer;
