@@ -1,0 +1,17 @@
+/* stylelint-disable selector-class-pattern */
+
+.test__button-pm{
+    top: -20px;
+    position: relative;
+    left: -500px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    border: 2px solid green;
+    background-color: #d14646;
+}
+
+.test__button-pm:hover{
+    color: blue;
+    cursor: pointer;
+}

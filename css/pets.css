@@ -1,52 +1,70 @@
-.div_pets{
-    width: 1000px;
-    background-color: #aa7926fc;
-    margin: auto;
-    padding: 20px;
-    padding-bottom: 0px;
+/* stylelint-disable string */
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable rule-empty-line-before */
+
+.div_pets {
+  width: 1000px;
+  background-color: #aa7926fc;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 0px;
 }
-.button_cont{
-    display: flex;
-    align-content: end;
-    position: absolute;
-    width: 100%;
-    top: 0;
+.button_cont {
+  display: flex;
+  align-content: end;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
-.close_pets{
-    position: relative;
-    left: 977px;
-    top: 270px;
+.close_pets {
+  position: relative;
+  left: 977px;
+  top: 270px;
 }
-.pets_img{
-    max-width: 165px;
-    height: auto;
-    cursor: pointer;
+.pets_img {
+  max-width: 165px;
+  height: auto;
+  cursor: pointer;
 }
-.pets_list{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-    padding: 0;
-    margin-bottom: 0px;
+.pets_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0;
+  margin-bottom: 0px;
 }
-.pets_img:hover{
-    animation: zoom 3s;
+.pets_img:hover {
+  animation: zoom 3s;
 }
+
 @keyframes zoom {
-    0%{
+  0% {
     transform: scale(1.2);
-    }
+  }
 }
 
 /* Кнопочки петов */
-.button_pet{
-    background:none;
-    border: none;
+.button_pet {
+  background: none;
+  border: none;
 }
 
 /* списек петов */
-ul li:last-child{
-    margin-bottom: 0px;
+ul li:last-child {
+  margin-bottom: 0px;
+}
+
+
+.button__pet_rez{
+  width: 100px;
+  height: 50px;
+  border: 1px solid #2f00ff;
+  border-radius: 3px;
+  cursor:pointer;
+}
+.button__pet_rez:hover{
+  background-color: yellow;
 }

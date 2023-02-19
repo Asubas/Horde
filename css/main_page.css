@@ -1,61 +1,68 @@
+/* stylelint-disable rule-empty-line-before */
+/* stylelint-disable selector-class-pattern */
+
 /* Стилизую главную страницу. */
 
 body {
     margin: 0;
-    background-image: url('https://sun9-88.userapi.com/impg/HVkNsxXz2_xeaamcqXSZacYLsJxbymiJ2dJHjg/EPcsOSkuovc.jpg?size=1280x886&quality=95&sign=25e600868c398bc2d31ed03dae2e2cf4&c_uniq_tag=Sjc9tmjUveeP75Kn969Y0CWCdGqNygo32nteEwsjXPc&type=album');
+    background-image: url("https://sun9-88.userapi.com/impg/HVkNsxXz2_xeaamcqXSZacYLsJxbymiJ2dJHjg/EPcsOSkuovc.jpg?size=1280x886&quality=95&sign=25e600868c398bc2d31ed03dae2e2cf4&c_uniq_tag=Sjc9tmjUveeP75Kn969Y0CWCdGqNygo32nteEwsjXPc&type=album");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    
 }
-.page{
+.page {
     overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
 }
-.footer{
+.footer {
     background-color: #701111fc;
-    margin-top:auto;
+    margin-top: auto;
     height: 50px;
 }
-.main_present{
+.main_present {
     margin-top: 28px;
 }
-.container{
+.container {
     width: 1500px;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
 }
+
 /* Стилизую навигацию */
-.list_navigation{
+
+.list_navigation {
     display: flex;
     justify-content: center;
-    padding: 0px;
+    padding: 0;
     flex-wrap: wrap;
 }
+
 ul li {
     list-style: none;
     padding-left: 30px;
-    margin-bottom: 50px ;
-    }   
+    margin-bottom: 50px;
+}
+
 /* Стилизую кнопки */
 
-.button_guide{
+.button_guide {
     width: 130px;
     height: 100px;
-    border: 9px solid rgba(87,87,70,0.5);
+    border: 9px solid rgba(87 87 70/50%);
     border-radius: 10%;
     cursor: pointer;
     position: relative;
     background-color: rgb(44 170 169 / 83%);
 }
-.close_window{
+.close_window {
     position: relative;
     top: 15px;
     left: 620px;
 }
+
 /* Стилизую выпадающие окна */
 
 .prioriti {
@@ -65,8 +72,8 @@ ul li {
     margin: auto;
     border-radius: 20px;
 }
-.visually_hidden{
-    position: absolute; 
+.visually_hidden {
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -76,25 +83,25 @@ ul li {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 }
-.modal_show{
+.modal_show {
     display: block;
     animation: bounce 0.6s;
-    }
-.test{
+}
+.test {
     padding: 40px;
 }
 
-a{
+a {
     text-decoration: none;
 }
-a:visited{
+a:visited {
     opacity: 0.5;
 }
-a:hover{
+a:hover {
     color: blue;
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid;
     cursor: pointer;
 }

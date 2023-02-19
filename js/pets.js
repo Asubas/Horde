@@ -78,3 +78,53 @@ pets_show.addEventListener('click', function () {
       '/ссылка на ТАКОЙ КАРТИНКИ НЕ НАЙДЕНО'; // добавляешь ссылку на заглушуку если такой картинки у тебя в массиве нет
     elem.addEventListener('click', () => showPictures(imgSrc)); // добавляешь эвент на кнопку в котором прокидываешь в функцию параметр src для картинки
   });
+
+
+
+  // кнопушки резонанса
+
+  const button__pet_rez_6 = document.querySelector('.button__pet_rez_6');
+  const button__pet_rez_9 = document.querySelector('.button__pet_rez_9');
+  const button__pet_rez_12 = document.querySelector('.button__pet_rez_12');
+  
+
+  const pet_6rez = document.querySelectorAll('.button_pet')
+
+  button__pet_rez_6.addEventListener('click', function(evt){
+    evt.preventDefault();
+    for( let b =0; b < pet_6rez.length; b++){
+    if( pet_6rez[b].classList.contains('6-rez')){
+      pet_6rez[b].classList.remove('visually_hidden');
+      console.log('raborat blyat')
+    }
+    if(!pet_6rez[b].classList.contains('6-rez')){
+      pet_6rez[b].classList.add('visually_hidden')
+    }
+  }
+  })
+
+  
+  button__pet_rez_9.addEventListener('click', function(evt){
+    evt.preventDefault();
+    for( let b =0; b < pet_6rez.length; b++){
+    if( pet_6rez[b].classList.contains('9-rez')){
+      pet_6rez[b].classList.remove('visually_hidden');
+      console.log('raborat blyat')
+    }if(!pet_6rez[b].classList.contains('9-rez') ){
+      pet_6rez[b].classList.add('visually_hidden')
+    }
+  }
+  })
+
+  button__pet_rez_12.addEventListener('click', function(evt){
+    evt.preventDefault();
+    for( let b =0; b < pet_6rez.length; b++){
+    if( pet_6rez[b].classList.contains('12-rez')){
+      pet_6rez[b].classList.remove('visually_hidden');
+      console.log('raborat blyat')
+    }
+    if(!pet_6rez[b].classList.contains('12-rez') ){
+      pet_6rez[b].classList.add('visually_hidden')
+    }
+  }
+  })

@@ -1,0 +1,7 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable block-no-empty */
+
+.test--pm-visually{
+    background-color: green;
+    border: 3px solid black;
+}
