@@ -1,26 +1,31 @@
-/* stylelint-disable comment-empty-line-before */
-/* stylelint-disable selector-class-pattern */
+
+
 /* Стилизую таблицу */
+
 table,
 td,
 tr {
   border: 2px solid white;
   border-collapse: collapse;
 }
+
 .universl {
   transform: rotate(-90deg);
 }
+
 button .strong_red {
   color: #c10202;
 }
+
 .modal_picture {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
+
 .close_twins,
-.close_window,
+.modal-table__button-close,
 .close_pets {
   position: absolute;
   top: 11px;
@@ -30,23 +35,26 @@ button .strong_red {
   width: 21px;
   height: 21px;
 }
+
 .close_twins::after,
-.close_window::after,
-.close_pets::after  {
-  content: '';
+.modal-table__button-close::after,
+.close_pets::after {
+  content: "";
   position: absolute;
   cursor: pointer;
   left: 0;
   top: 0;
   width: 21px;
   height: 21px;
-  background-image: url("../img/close-cross.svg");
+ 
+  background-image: url(../img/close-cross.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 1;
 }
+
 .close_twins:hover,
-.close_window:hover,
+.modal-table__button-close:hover,
 .close_pets:hover {
   animation: rotation 1s infinite;
 }
@@ -55,10 +63,12 @@ button .strong_red {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 .nULLD,
 .estra {
   width: 100px;
@@ -66,11 +76,13 @@ button .strong_red {
   color: blueviolet;
   background-color: blanchedalmond;
 }
-.button_hero {
+
+.table__button-hero {
   background-color: inherit;
   border: none;
 }
-.button_hero:hover {
+
+.table__button-hero:hover {
   cursor: pointer;
   color: blue;
   text-decoration: underline;

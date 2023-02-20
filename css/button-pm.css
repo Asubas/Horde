@@ -1,5 +1,4 @@
-
-.test__button-pm{
+.table__button-pm {
     top: -20px;
     position: relative;
     left: -500px;
@@ -9,7 +8,9 @@
     border: 2px solid green;
     background-color: #d14646;
 }
-.test__button-pm:hover{
+.table__button-pm:hover {
     color: blue;
     cursor: pointer;
 }
+
+

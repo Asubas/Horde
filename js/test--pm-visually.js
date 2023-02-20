@@ -1,5 +1,5 @@
 
-const pm_visually = document.querySelector('.test__button-pm');
+const pm_visually = document.querySelector('.table__button-pm');
 const pm = document.querySelectorAll('.pm');
 
 pm_visually.addEventListener('click', function(){

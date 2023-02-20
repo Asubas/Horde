@@ -38,10 +38,10 @@ const pets = [
 ];
 
 
-const pets_show = document.querySelector('.button_pets');
-const pets_back = document.querySelector('.div_pets');
+const pets_show = document.querySelector('.main-navigation__list-button-pets');
+const pets_back = document.querySelector('.pet-page');
 const pets_close = document.querySelector('.close_pets')
-const hidden_table = document.querySelector('.prioriti')
+const hidden_table = document.querySelector('.modal-table')
 
 pets_show.addEventListener('click', function () {
   if(hidden_table.classList.contains('modal_show')){
@@ -83,9 +83,9 @@ pets_show.addEventListener('click', function () {
 
   // кнопушки резонанса
 
-  const button__pet_rez_6 = document.querySelector('.button__pet_rez_6');
-  const button__pet_rez_9 = document.querySelector('.button__pet_rez_9');
-  const button__pet_rez_12 = document.querySelector('.button__pet_rez_12');
+  const button__pet_rez_6 = document.querySelector('.pet-page__button-rez_6');
+  const button__pet_rez_9 = document.querySelector('.pet-page__button-rez_9');
+  const button__pet_rez_12 = document.querySelector('.pet-page__button-rez_12');
   
 
   const pet_6rez = document.querySelectorAll('.button_pet')

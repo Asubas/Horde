@@ -1,9 +1,9 @@
-const guide = document.querySelector('.button_guide');
-const guide_vusually = document.querySelector('.prioriti');
+const guide = document.querySelector('.main-navigation__list-button');
+const guide_vusually = document.querySelector('.modal-table');
 const hidden = document.querySelector('.visually_hidden');
-const close_window = document.querySelector('.close_window');
+const button_close = document.querySelector('.modal-table__button-close');
 
-const pet_watch = document.querySelector('.div_pets')
+const pet_watch = document.querySelector('.pet-page')
 
 
 guide.addEventListener('click', function () {
@@ -27,7 +27,7 @@ guide.addEventListener('click', function () {
   });
 
 
-close_window.addEventListener('click', function (evt) {
+  button_close.addEventListener('click', function (evt) {
   evt.preventDefault();
   guide_vusually.classList.remove('modal_show');
   guide_vusually.classList.add('visually_hidden');

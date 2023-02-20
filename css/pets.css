@@ -1,8 +1,8 @@
 /* stylelint-disable no-descending-specificity */
 /* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable selector-class-pattern */
 
-.div_pets {
+
+.pet-page {
   width: 1000px;
   background-color: #aa7926fc;
   margin: auto;
@@ -43,17 +43,7 @@
 .pets_img:hover {
   animation: zoom 3s;
 }
-/* stylelint-disable string */
-/* stylelint-disable length-zero-no-unit */
-/* stylelint-disable rule-empty-line-before */
 
-.div_pets {
-  width: 1000px;
-  background-color: #aa7926fc;
-  margin: auto;
-  padding: 20px;
-  padding-bottom: 0px;
-}
 .button_cont {
   display: flex;
   align-content: end;
@@ -105,13 +95,13 @@ ul li:last-child {
   margin-bottom: 0px;
 }
 
-.button__pet_rez {
+.pet-page__button-rez {
   width: 100px;
   height: 50px;
   border: 1px solid #2f00ff;
   border-radius: 3px;
   cursor: pointer;
 }
-.button__pet_rez:hover {
+.pet-page__button-rez:hover {
   background-color: yellow;
 }

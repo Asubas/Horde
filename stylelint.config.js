@@ -6,6 +6,7 @@ module.exports = {
     ],
     rules: {
      'no-empty-source': null,
+     'selector-class-pattern' : new RegExp('a-z','i'),
      'at-rule-no-unknown': [
       true,
       {

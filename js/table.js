@@ -352,7 +352,7 @@ const links = [
        ];
   
   
-  const containerButtons = document.querySelectorAll('.button_hero');
+  const containerButtons = document.querySelectorAll('.table__button-hero');
   const modal = document.querySelector('.modal_picture');
   
   function showPicture(src = '') {
@@ -391,4 +391,4 @@ const twins_picture_close = document.querySelector('.close_twins')
   });
 
 
-  //const guide = document.querySelector('.button_guide');
+  //const guide = document.querySelector('.main-navigation__list-button');

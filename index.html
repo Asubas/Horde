@@ -18,25 +18,25 @@
   <body>
     <div class="page">
     <header class="header">
-      <h1 class='main_present'>Добро пожаловать на сайт гильдии ОРДА</h1>
+      <h1 class='main-present'>Добро пожаловать на сайт гильдии ОРДА</h1>
       <div class='container'>
-        <nav class='main_navigation'>
-          <ul class='list_navigation'>
-            <li><button class='button_guide'>Таблица + приоритеты</button></li>
-            <li><button class='button_guide'>Астрозал</button></li>
-            <li><button class='button_guide'>Хронозал</button></li>
-            <li><button class='button_guide'>Турнирка</button></li>
-            <li><button type='button' class='button_guide button_pets'>Петы</button></li>
+        <nav class='main-navigation'>
+          <ul class='main-navigation__list'>
+            <li><button class='main-navigation__list-button'>Таблица + приоритеты</button></li>
+            <li><button class='main-navigation__list-button'>Астрозал</button></li>
+            <li><button class='main-navigation__list-button'>Хронозал</button></li>
+            <li><button class='main-navigation__list-button'>Турнирка</button></li>
+            <li><button type='button' class='main-navigation__list-button main-navigation__list-button-pets'>Петы</button></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <div class='prioriti visually_hidden'>
-        <button class='close_window'></button>
-        <div class='test'>
-          <button type="button" class="test__button-pm pm">ПМ</button>
-          <table class='table'>
+      <div class='modal-table visually_hidden'>
+        <button class='modal-table__button-close'></button>
+        <div class='table'>
+          <button type="button" class="table__button-pm pm">ПМ</button>
+          <table>
             <tr>
               <th></th>
               <th>Небожители</th>
@@ -52,127 +52,127 @@
                 Универсальные<br />
                 Бездна-приоритет
               </th>
-              <td><button type='button' data-id='twins' class='button_hero pm'>Илия и Лейла <strong class='strong_red'>20</strong>(30) /<strong class='strong_red'>9</strong>/<strong class='strong_red'>e33</strong>(e38)</button>
+              <td><button type='button' data-id='twins' class='table__button-hero pm'>Илия и Лейла <strong class='strong_red'>20</strong>(30) /<strong class='strong_red'>9</strong>/<strong class='strong_red'>e33</strong>(e38)</button>
               </td>
-              <td><button type='button' data-id='zolik' class = 'button_hero'>Золрат 30/9/e41+(e60+)</button></td>
-              <td><button type='button' data-id='estra' class = 'button_hero pm'>Эстрильда 20(30)/9/e30</button></td>
-              <td><button type='button' data-id='anasta' class = 'button_hero'>Анаста 30/9+(18)/е30+(е60+) 5*</button></td>
-              <td><button type='button' data-id='mishka' class = 'button_hero pm'>Мишка 30/9/е60+</button></td>
-              <td><button type='button' data-id='greshul' class = 'button_hero'>Грежул 30/9/60(е61-е66)</button></td>
-              <td><button type='button' data-id='janna' class = 'button_hero'>Жанна д’Арк 20(30)/3(9)/e30(е60)</button></td>
+              <td><button type='button' data-id='zolik' class = 'table__button-hero'>Золрат 30/9/e41+(e60+)</button></td>
+              <td><button type='button' data-id='estra' class = 'table__button-hero pm'>Эстрильда 20(30)/9/e30</button></td>
+              <td><button type='button' data-id='anasta' class = 'table__button-hero'>Анаста 30/9+(18)/е30+(е60+) 5*</button></td>
+              <td><button type='button' data-id='mishka' class = 'table__button-hero pm'>Мишка 30/9/е60+</button></td>
+              <td><button type='button' data-id='greshul' class = 'table__button-hero'>Грежул 30/9/60(е61-е66)</button></td>
+              <td><button type='button' data-id='janna' class = 'table__button-hero'>Жанна д’Арк 20(30)/3(9)/e30(е60)</button></td>
             </tr>
             <tr>
-              <td><button type='button' data-id='haelus' class = 'button_hero'>Хелус 30/9/e60(e61)</button></td>
-              <td><button type='button' data-id='mortras' class = 'button_hero'>Мортас миф 20 (30)/(9)/(e33)</button></td>
-              <td><button type='button' data-id='raine' class = 'button_hero'>Райна 20/3</button></td>
-              <td><button type='button' data-id='screg' class = 'button_hero'>Скрег 20(30)/9/(e30)</button></td>
-              <td><button type='button' data-id='eiron' class = 'button_hero'>Эйрон 30/9/е18+(е33)</button></td>
-              <td><button type='button' data-id='hodg' class = 'button_hero'>Ходжкин 20(30)/9/e30</button></td>
-              <td><button type='button' data-id='merlin' class = 'button_hero'>Мерлин 30/9/(e30)</button></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td><button type='button' data-id='palmer' class = 'button_hero'>Палмер 20(30)/9+/е39-е44 (е68) (3*-5*)</button></td>
-              <td><button type='button' data-id='skriath' class = 'button_hero'>Скриат 30/9/(e30+)</button></td>
-              <td><button type='button' data-id='saurus' class = 'button_hero'>Саурус 30/9/е30-е60+</button></td>
-              <td><button type='button' data-id='silas' class = 'button_hero'>Сайлас 30/9/(е30+)</button></td>
-              <td><button type='button' data-id='albedo' class = 'button_hero'>Альбедо 30/9/e30(e60)</button></td>
+              <td><button type='button' data-id='haelus' class = 'table__button-hero'>Хелус 30/9/e60(e61)</button></td>
+              <td><button type='button' data-id='mortras' class = 'table__button-hero'>Мортас миф 20 (30)/(9)/(e33)</button></td>
+              <td><button type='button' data-id='raine' class = 'table__button-hero'>Райна 20/3</button></td>
+              <td><button type='button' data-id='screg' class = 'table__button-hero'>Скрег 20(30)/9/(e30)</button></td>
+              <td><button type='button' data-id='eiron' class = 'table__button-hero'>Эйрон 30/9/е18+(е33)</button></td>
+              <td><button type='button' data-id='hodg' class = 'table__button-hero'>Ходжкин 20(30)/9/e30</button></td>
+              <td><button type='button' data-id='merlin' class = 'table__button-hero'>Мерлин 30/9/(e30)</button></td>
             </tr>
             <tr>
               <td></td>
               <td></td>
-              <td></td>
-              <td><button type='button' data-id='varek' class = 'button_hero'>Варек 10(20)</button></td>
-              <td><button type='button' data-id='nevati' class = 'button_hero'>Неванти 20(30)/9/е30-е60(е61)</button></td>
-              <td><button type='button' data-id='izold' class = 'button_hero'>Изольд 30/9/е11(е30-е41)</button></td>
-              <td></td>
+              <td><button type='button' data-id='palmer' class = 'table__button-hero'>Палмер 20(30)/9+/е39-е44 (е68) (3*-5*)</button></td>
+              <td><button type='button' data-id='skriath' class = 'table__button-hero'>Скриат 30/9/(e30+)</button></td>
+              <td><button type='button' data-id='saurus' class = 'table__button-hero'>Саурус 30/9/е30-е60+</button></td>
+              <td><button type='button' data-id='silas' class = 'table__button-hero'>Сайлас 30/9/(е30+)</button></td>
+              <td><button type='button' data-id='albedo' class = 'table__button-hero'>Альбедо 30/9/e30(e60)</button></td>
             </tr>
             <tr>
               <td></td>
               <td></td>
               <td></td>
+              <td><button type='button' data-id='varek' class = 'table__button-hero'>Варек 10(20)</button></td>
+              <td><button type='button' data-id='nevati' class = 'table__button-hero'>Неванти 20(30)/9/е30-е60(е61)</button></td>
+              <td><button type='button' data-id='izold' class = 'table__button-hero'>Изольд 30/9/е11(е30-е41)</button></td>
+              <td></td>
+            </tr>
+            <tr>
               <td></td>
               <td></td>
-              <td><button type='button' data-id='daemon' class = 'button_hero'>Дэймон 20(30)/3(9)/е30+</button></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><button type='button' data-id='daemon' class = 'table__button-hero'>Дэймон 20(30)/3(9)/е30+</button></td>
               <td></td>
             </tr>
             <tr>
               <th rowspan='6' class='universl'>Фармовые</th>
-              <td><button type='button' data-id='alna' class = 'button_hero'>Альна 30/9/(е30)</button></td>
-              <td><button type='button' data-id='lukra' class = 'button_hero'>Лукреция 30(35)/9+(27)/e60+ (3*-5*)</button></td>
-              <td><button type='button' data-id='rosa' class = 'button_hero'>Розалина 20(30)/3(9)/(е18-e33)</button></td>
-              <td><button type='button' data-id='kren' class = 'button_hero'>Крен 30/9/е33+</button></td>
-              <td><button type='button' data-id='raku' class = 'button_hero'>Раку 30/9/е38-е44+ (е60-е66)</button></td>
-              <td><button type='button' data-id='oden' class = 'button_hero'>Оден 30/9/е41(е60+)</button></td>
-              <td><button type='button' data-id='arthur' class = 'button_hero'>Артур 30/3</button></td>
+              <td><button type='button' data-id='alna' class = 'table__button-hero'>Альна 30/9/(е30)</button></td>
+              <td><button type='button' data-id='lukra' class = 'table__button-hero'>Лукреция 30(35)/9+(27)/e60+ (3*-5*)</button></td>
+              <td><button type='button' data-id='rosa' class = 'table__button-hero'>Розалина 20(30)/3(9)/(е18-e33)</button></td>
+              <td><button type='button' data-id='kren' class = 'table__button-hero'>Крен 30/9/е33+</button></td>
+              <td><button type='button' data-id='raku' class = 'table__button-hero'>Раку 30/9/е38-е44+ (е60-е66)</button></td>
+              <td><button type='button' data-id='oden' class = 'table__button-hero'>Оден 30/9/е41(е60+)</button></td>
+              <td><button type='button' data-id='arthur' class = 'table__button-hero'>Артур 30/3</button></td>
             </tr>
             <tr>
-              <td><button type='button' data-id='orthros' class = 'button_hero'>Ортрус 20(30)/3-9/(е30+)</button></td>
-              <td><button type='button' data-id='ezish' class = 'button_hero'>Эзиж 20(30)/9/(е30-е36)</button></td>
-              <td><button type='button' data-id='scarlet' class = 'button_hero'>Скарлет 30/9/е38 (e60-66 при 5*)</button></td>
-              <td><button type='button' data-id='granit' class = 'button_hero'>Гранит 30</button></td>
-              <td><button type='button' data-id='astar' class = 'button_hero'>Астар 30/9/е33-е60</button></td>
-              <td><button type='button' data-id='torn' class = 'button_hero'>Торн 20(30)/3-9/(е30+)</button></td>
-              <td><button type='button' data-id='ainz' class = 'button_hero'>Аинз 30/9/e60+</button></td>
+              <td><button type='button' data-id='orthros' class = 'table__button-hero'>Ортрус 20(30)/3-9/(е30+)</button></td>
+              <td><button type='button' data-id='ezish' class = 'table__button-hero'>Эзиж 20(30)/9/(е30-е36)</button></td>
+              <td><button type='button' data-id='scarlet' class = 'table__button-hero'>Скарлет 30/9/е38 (e60-66 при 5*)</button></td>
+              <td><button type='button' data-id='granit' class = 'table__button-hero'>Гранит 30</button></td>
+              <td><button type='button' data-id='astar' class = 'table__button-hero'>Астар 30/9/е33-е60</button></td>
+              <td><button type='button' data-id='torn' class = 'table__button-hero'>Торн 20(30)/3-9/(е30+)</button></td>
+              <td><button type='button' data-id='ainz' class = 'table__button-hero'>Аинз 30/9/e60+</button></td>
             </tr>
             <tr>
-              <td><button type='button' data-id='talena' class = 'button_hero'>Талена 30/9/е38-е60+ (е66-е72) (3-5*)</button></td>
-              <td><button type='button' data-id='khazard' class = 'button_hero'>Хазард миф 30</button></td>
-              <td><button type='button' data-id='sonja' class = 'button_hero'>Соня 20(30)/3(9)/е30</button></td>
+              <td><button type='button' data-id='talena' class = 'table__button-hero'>Талена 30/9/е38-е60+ (е66-е72) (3-5*)</button></td>
+              <td><button type='button' data-id='khazard' class = 'table__button-hero'>Хазард миф 30</button></td>
+              <td><button type='button' data-id='sonja' class = 'table__button-hero'>Соня 20(30)/3(9)/е30</button></td>
               <td></td>
-              <td><button type='button' data-id='nemora' class = 'button_hero'>Немора 20/9</button></td>
-              <td><button type='button' data-id='toran' class = 'button_hero'>Торан 30/3-9/(е11, е36)</button></td>
-              <td><button type='button' data-id='ldv' class = 'button_hero'>Леонардо да Винчи 20/9/е36+</button></td>
+              <td><button type='button' data-id='nemora' class = 'table__button-hero'>Немора 20/9</button></td>
+              <td><button type='button' data-id='toran' class = 'table__button-hero'>Торан 30/3-9/(е11, е36)</button></td>
+              <td><button type='button' data-id='ldv' class = 'table__button-hero'>Леонардо да Винчи 20/9/е36+</button></td>
             </tr>
             <tr>
-              <td><button type='button' data-id='mora' class = 'button_hero'>>Мораэль 20(30)/9/(е33+)</button></td>
-              <td><button type='button' data-id='mehira' class = 'button_hero'>Мегира миф 30 (30/9)</button></td>
-              <td><button type='button' data-id='rovan' class = 'button_hero'>Рован 30/3/(е33)</button></td>
+              <td><button type='button' data-id='mora' class = 'table__button-hero'>>Мораэль 20(30)/9/(е33+)</button></td>
+              <td><button type='button' data-id='mehira' class = 'table__button-hero'>Мегира миф 30 (30/9)</button></td>
+              <td><button type='button' data-id='rovan' class = 'table__button-hero'>Рован 30/3/(е33)</button></td>
               <td></td>
-              <td><button type='button' data-id='lorsan' class = 'button_hero'>Лорсан 20(25)/9/(е36)</button></td>
-              <td><button type='button' data-id='ferael' class = 'button_hero'>Фераэль 30/9/(е30)</button></td>
-              <td><button type='button' data-id='queen' class = 'button_hero'>Квин 20(30)/9/е13(е33)</button></td>
+              <td><button type='button' data-id='lorsan' class = 'table__button-hero'>Лорсан 20(25)/9/(е36)</button></td>
+              <td><button type='button' data-id='ferael' class = 'table__button-hero'>Фераэль 30/9/(е30)</button></td>
+              <td><button type='button' data-id='queen' class = 'table__button-hero'>Квин 20(30)/9/е13(е33)</button></td>
             </tr>
             <tr>
-              <td><button type='button' data-id='athalia' class = 'button_hero'>Аталия 30/9/е30+(е60)</button></td>
+              <td><button type='button' data-id='athalia' class = 'table__button-hero'>Аталия 30/9/е30+(е60)</button></td>
               <td></td>
-              <td><button type='button' data-id='hendrik' class = 'button_hero'>Хендрик 20/(3-9)</button></td>
+              <td><button type='button' data-id='hendrik' class = 'table__button-hero'>Хендрик 20/(3-9)</button></td>
               <td></td>
-              <td><button type='button' data-id='luca' class = 'button_hero'>Лика 20/9</button></td>
-              <td><button type='button' data-id='desira' class = 'button_hero'>Десира 20(30)/9/(е33)</button></td>
-              <td><button type='button' data-id='ecio' class = 'button_hero'>Эцио 20(30)/9/(е30)</button></td>
+              <td><button type='button' data-id='luca' class = 'table__button-hero'>Лика 20/9</button></td>
+              <td><button type='button' data-id='desira' class = 'table__button-hero'>Десира 20(30)/9/(е33)</button></td>
+              <td><button type='button' data-id='ecio' class = 'table__button-hero'>Эцио 20(30)/9/(е30)</button></td>
             </tr>
             <tr>
-              <td><button type='button' data-id='vitalya' class = 'button_hero'>Вейтаэль 30/9/е60?</button></td>
+              <td><button type='button' data-id='vitalya' class = 'table__button-hero'>Вейтаэль 30/9/е60?</button></td>
               <td></td>
               <td></td>
               <td></td>
-              <td><button type='button' data-id='eorin' class = 'button_hero'>Эорин 20(30)/9/е41+ 3*+</button></td>
-              <td><button type='button' data-id='baden' class = 'button_hero'>Баден 20/(3-9)</button></td>
-              <td><button type='button' data-id='yenifer' class = 'button_hero'>Йеннифер 20(30)/3-9/е30 (е60)</button></td>
+              <td><button type='button' data-id='eorin' class = 'table__button-hero'>Эорин 20(30)/9/е41+ 3*+</button></td>
+              <td><button type='button' data-id='baden' class = 'table__button-hero'>Баден 20/(3-9)</button></td>
+              <td><button type='button' data-id='yenifer' class = 'table__button-hero'>Йеннифер 20(30)/3-9/е30 (е60)</button></td>
             </tr>
             <tr>
               <th rowspan='3' class='universl'>
                 Фармовые+<br />
                 Нишевые
               </th>
-              <td><button type='button' data-id='zaf' class = 'button_hero'>Зафраэль Элит 20(30)/9/(е21-е30, е41)</button></td>
-              <td><button type='button' data-id='frempton' class = 'button_hero'>Фрэмтон 20(30)/9/е30+(е60)</button></td>
-              <td><button type='button' data-id='taine' class = 'button_hero'>Тейн (30)/(9)/(e60)</button></td>
-              <td><button type='button' data-id='antadra' class = 'button_hero'>Антандра 30/9/e30 3*-e60 5*</button></td>
-              <td><button type='button' data-id='tasi' class = 'button_hero'>Тази 20(25-30)/9</button></td>
-              <td><button type='button' data-id='izabella' class = 'button_hero'>Изабелла 20(25-30)/3(9)/е18(е30+)</button></td>
-              <td><button type='button' data-id='geralt' class = 'button_hero'>Геральт 20(30)/9/е30</button></td>
+              <td><button type='button' data-id='zaf' class = 'table__button-hero'>Зафраэль Элит 20(30)/9/(е21-е30, е41)</button></td>
+              <td><button type='button' data-id='frempton' class = 'table__button-hero'>Фрэмтон 20(30)/9/е30+(е60)</button></td>
+              <td><button type='button' data-id='taine' class = 'table__button-hero'>Тейн (30)/(9)/(e60)</button></td>
+              <td><button type='button' data-id='antadra' class = 'table__button-hero'>Антандра 30/9/e30 3*-e60 5*</button></td>
+              <td><button type='button' data-id='tasi' class = 'table__button-hero'>Тази 20(25-30)/9</button></td>
+              <td><button type='button' data-id='izabella' class = 'table__button-hero'>Изабелла 20(25-30)/3(9)/е18(е30+)</button></td>
+              <td><button type='button' data-id='geralt' class = 'table__button-hero'>Геральт 20(30)/9/е30</button></td>
             </tr>
             <tr>
-              <td><button type='button' data-id='odri' class = 'button_hero'>Одри 30/9/е60+</button></td>
-              <td><button type='button' data-id='kanistra' class = 'button_hero'>Каниса и Рюк 30/9/е60</button></td>
+              <td><button type='button' data-id='odri' class = 'table__button-hero'>Одри 30/9/е60+</button></td>
+              <td><button type='button' data-id='kanistra' class = 'table__button-hero'>Каниса и Рюк 30/9/е60</button></td>
               <td></td>
-              <td><button type='button' data-id='drez' class = 'button_hero'>Дрез 20(30)/9/(e30-e60)</button></td>
+              <td><button type='button' data-id='drez' class = 'table__button-hero'>Дрез 20(30)/9/(e30-e60)</button></td>
               <td></td>
-              <td><button type='button' data-id='trenzor' class = 'button_hero'>Трезнор 20(30)/(9)/(е30+, е60)</button></td>
-              <td><button type='button' data-id='mulan' class = 'button_hero'>Мулан ?</button></td>
+              <td><button type='button' data-id='trenzor' class = 'table__button-hero'>Трезнор 20(30)/(9)/(е30+, е60)</button></td>
+              <td><button type='button' data-id='mulan' class = 'table__button-hero'>Мулан ?</button></td>
             </tr>
             <tr>
               <td></td>
@@ -180,26 +180,26 @@
               <td></td>
               <td></td>
               <td></td>
-              <td><button type='button' data-id='kalena' class = 'button_hero'>Калена 20(30)/(9)/(e60+)</button></td>
+              <td><button type='button' data-id='kalena' class = 'table__button-hero'>Калена 20(30)/(9)/(e60+)</button></td>
               <td></td>
             </tr>
             <tr style='height: 76px'>
               <th class='universl'>Пробуды</th>
-              <td><button type='button' data-id='ptalena' class = 'button_hero'>пТалена (мин лег) Миф 30 30/9/(e60)</button></td>
-              <td><button type='button' data-id='pezish' class = 'button_hero'>пЭзиж лег</button></td>
-              <td><button type='button' data-id='ptaine' class = 'button_hero'>пТейн 30/9/e60+(62-67, 68)</button><br><button type='button' data-id='pobelka' class = 'button_hero'>пБелинда ?</button></td>
-              <td><button type='button' data-id='pbrutus' class = 'button_hero'>пБрутус (мин миф 30) 30/9/e60+(е62-е67)</button></td>
-              <td><button type='button' data-id='psolya' class = 'button_hero'>пСолиса (мин миф 30) 30/9/e60+(е61, е67)</button></td>
-              <td><button type='button' data-id='pbaden' class = 'button_hero'>пБаден 30/9+(27)/60+(е66)</button></td>
+              <td><button type='button' data-id='ptalena' class = 'table__button-hero'>пТалена (мин лег) Миф 30 30/9/(e60)</button></td>
+              <td><button type='button' data-id='pezish' class = 'table__button-hero'>пЭзиж лег</button></td>
+              <td><button type='button' data-id='ptaine' class = 'table__button-hero'>пТейн 30/9/e60+(62-67, 68)</button><br><button type='button' data-id='pobelka' class = 'table__button-hero'>пБелинда ?</button></td>
+              <td><button type='button' data-id='pbrutus' class = 'table__button-hero'>пБрутус (мин миф 30) 30/9/e60+(е62-е67)</button></td>
+              <td><button type='button' data-id='psolya' class = 'table__button-hero'>пСолиса (мин миф 30) 30/9/e60+(е61, е67)</button></td>
+              <td><button type='button' data-id='pbaden' class = 'table__button-hero'>пБаден 30/9+(27)/60+(е66)</button></td>
               <td></td>
             </tr>
           </table>
         </div>
       </div>
-      <div class = 'visually_hidden div_pets'>
-        <button type="button" class="button__pet_rez button__pet_rez_6">6 резонанс</button>
-        <button type="button" class="button__pet_rez button__pet_rez_9">9 резонанс</button>
-        <button type="button" class="button__pet_rez button__pet_rez_12">12 резонанс</button>
+      <div class = 'visually_hidden pet-page'>
+        <button type="button" class="pet-page__button-rez pet-page__button-rez_6">6 резонанс</button>
+        <button type="button" class="pet-page__button-rez pet-page__button-rez_9">9 резонанс</button>
+        <button type="button" class="pet-page__button-rez pet-page__button-rez_12">12 резонанс</button>
         <h3 class="button_pet visually_hidden 6-rez 9-rez 12-rez">Топ 1 тир</h3>
         <button type='button' data-id='lion' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/lion.png' alt='пет лев арр'></button>
         <button type='button' data-id='fire_dragon' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/fire_dragon.png' alt='острый гребень'></button>
