@@ -11,7 +11,8 @@
     <link rel='stylesheet' href='css/table.css' />
     <link rel='stylesheet' href='css/main_page.css' />
     <link rel='stylesheet' href='css/pets.css' />
-
+    <link rel='stylesheet' href='css/button-pm.css' />
+    <link rel='stylesheet' href='css/test--pm-visually.css'>
     <title>Horde</title>
   </head>
   <body>
@@ -22,13 +23,9 @@
         <nav class='main_navigation'>
           <ul class='list_navigation'>
             <li><button class='button_guide'>Таблица + приоритеты</button></li>
-            <li><button class='button_guide'>Свет</button></li>
-            <li><button class='button_guide'>Громилы</button></li>
-            <li><button class='button_guide'>Лес</button></li>
-            <li><button class='button_guide'>Могилы</button></li>
-            <li><button class='button_guide'>Небо</button></li>
-            <li><button class='button_guide'>Демоны</button></li>
-            <li><button class='button_guide'>Иноземцы</button></li>
+            <li><button class='button_guide'>Астрозал</button></li>
+            <li><button class='button_guide'>Хронозал</button></li>
+            <li><button class='button_guide'>Турнирка</button></li>
             <li><button type='button' class='button_guide button_pets'>Петы</button></li>
           </ul>
         </nav>
@@ -38,6 +35,7 @@
       <div class='prioriti visually_hidden'>
         <button class='close_window'></button>
         <div class='test'>
+          <button type="button" class="test__button-pm pm">ПМ</button>
           <table class='table'>
             <tr>
               <th></th>
@@ -54,12 +52,12 @@
                 Универсальные<br />
                 Бездна-приоритет
               </th>
-              <td><button type='button' data-id='twins' class='button_hero'>Илия и Лейла <strong class='strong_red'>20</strong>(30) /<strong class='strong_red'>9</strong>/<strong class='strong_red'>e33</strong>(e38)</button>
+              <td><button type='button' data-id='twins' class='button_hero pm'>Илия и Лейла <strong class='strong_red'>20</strong>(30) /<strong class='strong_red'>9</strong>/<strong class='strong_red'>e33</strong>(e38)</button>
               </td>
               <td><button type='button' data-id='zolik' class = 'button_hero'>Золрат 30/9/e41+(e60+)</button></td>
-              <td><button type='button' data-id='estra' class = 'button_hero'>Эстрильда 20(30)/9/e30</button></td>
+              <td><button type='button' data-id='estra' class = 'button_hero pm'>Эстрильда 20(30)/9/e30</button></td>
               <td><button type='button' data-id='anasta' class = 'button_hero'>Анаста 30/9+(18)/е30+(е60+) 5*</button></td>
-              <td><button type='button' data-id='mishka' class = 'button_hero'>Мишка 30/9/е60+</button></td>
+              <td><button type='button' data-id='mishka' class = 'button_hero pm'>Мишка 30/9/е60+</button></td>
               <td><button type='button' data-id='greshul' class = 'button_hero'>Грежул 30/9/60(е61-е66)</button></td>
               <td><button type='button' data-id='janna' class = 'button_hero'>Жанна д’Арк 20(30)/3(9)/e30(е60)</button></td>
             </tr>
@@ -199,16 +197,32 @@
         </div>
       </div>
       <div class = 'visually_hidden div_pets'>
+        <button type="button" class="button__pet_rez button__pet_rez_6">6 резонанс</button>
+        <button type="button" class="button__pet_rez button__pet_rez_9">9 резонанс</button>
+        <button type="button" class="button__pet_rez button__pet_rez_12">12 резонанс</button>
+        <h3 class="button_pet visually_hidden 6-rez 9-rez 12-rez">Топ 1 тир</h3>
+        <button type='button' data-id='lion' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/lion.png' alt='пет лев арр'></button>
+        <button type='button' data-id='fire_dragon' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/fire_dragon.png' alt='острый гребень'></button>
+        <button type='button' data-id='yasher' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/stone.png' alt='ящерица'></button>
+        <h3 class="button_pet visually_hidden 9-rez 12-rez">Топ 2 тир</h3>
+        <button type='button' data-id='shield' class='button_pet 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/shield_beast.png' alt='талисман'></button>
+        <h3 class="button_pet visually_hidden 12-rez">Топ 3 тир</h3>
+        <button type='button' data-id='fire_beast' class='button_pet 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/fire_beast_shield.png' alt='огнеплюй'></button>
+        <h3 class="button_pet visually_hidden 6-rez 9-rez 12-rez">Ожидают резонанса</h3>
+        <button type='button' data-id='owl' class='button_pet visually_hidden'><img class= 'pets_img' src='img/pets/owl.png' alt='сова'></button>
+        <button type='button' data-id='night_cat' class='button_pet visually_hidden'><img class= 'pets_img' src='img/pets/night_cat.png' alt='ночной кот'></button>
+        <button type='button' data-id='bamby' class='button_pet visually_hidden'><img class= 'pets_img' src='img/pets/bamby.png' alt='олень'></button>
+
         <ul class = 'pets_list'>
-          <li><button type='button' data-id='lion' class='button_pet'><img class= 'pets_img' src='img/pets/lion.png' alt='пет лев арр'></button></li>
-          <li><button type='button' data-id='fire_dragon' class='button_pet'><img class= 'pets_img' src='img/pets/fire_dragon.png' alt='острый гребень'></button></li>
-          <li><button type='button' data-id='yasher' class='button_pet'><img class= 'pets_img' src='img/pets/stone.png' alt='ящерица'></button></li>
-          <li><button type='button' data-id='ice' class='button_pet'><img class= 'pets_img' src='img/pets/ice_beast.png' alt='ледяной'></button></li>
-          <li><button type='button' data-id='shield' class='button_pet'><img class= 'pets_img' src='img/pets/shield_beast.png' alt='талисман'></button></li>
-          <li><button type='button' data-id='fire_beast' class='button_pet'><img class= 'pets_img' src='img/pets/fire_beast_shield.png' alt='огнеплюй'></button></li>
-          <li><button type='button' data-id='owl' class='button_pet'><img class= 'pets_img' src='img/pets/owl.png' alt='сова'></button></li>
-          <li><button type='button' data-id='night_cat' class='button_pet'><img class= 'pets_img' src='img/pets/night_cat.png' alt='ночной кот'></button></li>
-          <li><button type='button' data-id='bamby' class='button_pet'><img class= 'pets_img' src='img/pets/bamby.png' alt='олень'></button></li>
+          <!-- <li><button type='button' data-id='lion' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/lion.png' alt='пет лев арр'></button></li>
+          <li><button type='button' data-id='fire_dragon' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/fire_dragon.png' alt='острый гребень'></button></li>
+          <li><button type='button' data-id='yasher' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/stone.png' alt='ящерица'></button></li>
+          <li><button type='button' data-id='ice' class='button_pet 6-rez 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/ice_beast.png' alt='ледяной'></button></li> -->
+          <!-- <li><button type='button' data-id='shield' class='button_pet 9-rez 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/shield_beast.png' alt='талисман'></button></li> -->
+          <!-- <li><button type='button' data-id='fire_beast' class='button_pet 12-rez visually_hidden'><img class= 'pets_img' src='img/pets/fire_beast_shield.png' alt='огнеплюй'></button></li> -->
+          <li><button type='button' data-id='owl' class='button_pet visually_hidden'><img class= 'pets_img' src='img/pets/owl.png' alt='сова'></button></li>
+          <li><button type='button' data-id='night_cat' class='button_pet visually_hidden'><img class= 'pets_img' src='img/pets/night_cat.png' alt='ночной кот'></button></li>
+          <li><button type='button' data-id='bamby' class='button_pet visually_hidden'><img class= 'pets_img' src='img/pets/bamby.png' alt='олень'></button></li>
         </ul>
         <div class='button_cont'>
         <button type='button' class='close_pets'></button>
@@ -230,5 +244,6 @@
     <script src='js/horde.js'></script>
     <script src='js/table.js'></script>
     <script src='js/pets.js'></script>
+    <script src="js/test--pm-visually.js"></script>
   </body>
 </html>

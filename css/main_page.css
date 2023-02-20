@@ -1,7 +1,13 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable rule-empty-line-before */
+/* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable selector-class-pattern */
+
 
 /* Стилизую главную страницу. */
 
+
+/* Стилизую главную страницу. */
 body {
   margin: 0;
   background-image: url("https://sun9-88.userapi.com/impg/HVkNsxXz2_xeaamcqXSZacYLsJxbymiJ2dJHjg/EPcsOSkuovc.jpg?size=1280x886&quality=95&sign=25e600868c398bc2d31ed03dae2e2cf4&c_uniq_tag=Sjc9tmjUveeP75Kn969Y0CWCdGqNygo32nteEwsjXPc&type=album");
@@ -24,6 +30,12 @@ body {
   height: 50px;
 }
 
+
+.main_present {
+  margin-top: 28px;
+}
+
+
 .main_present {
   margin-top: 28px;
 }
@@ -35,6 +47,8 @@ body {
 }
 
 /* Стилизую навигацию */
+
+
 
 .list_navigation {
   display: flex;
@@ -50,11 +64,26 @@ ul li {
 }
 
 /* Стилизую кнопки */
+.button_guide {
+  width: 130px;
+  height: 100px;
+  border: 9px solid rgba(87 87 70/50%);
+  border-radius: 10%;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(44 170 169 / 83%);
+}
+.close_window {
+  position: relative;
+  top: 15px;
+  left: 620px;
+}
+
 
 .button_guide {
   width: 130px;
   height: 100px;
-  border: 9px solid rgba(87,87,70,0.5);
+  border: 9px solid #57574680;
   border-radius: 10%;
   cursor: pointer;
   position: relative;
@@ -67,14 +96,15 @@ ul li {
   left: 620px;
 }
 
-/* Стилизую выпадающие окна */
 
+/* Стилизую выпадающие окна */
 .prioriti {
   background-color: #aa7926fc;
   width: 1358px;
   height: 100%;
   margin: auto;
   border-radius: 20px;
+
 }
 
 .visually_hidden {
@@ -108,9 +138,39 @@ a {
 a:visited {
   opacity: 0.5;
 }
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.modal_show {
+  display: block;
+  animation: bounce 0.6s;
+}
+.test {
+  padding: 40px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  opacity: 0.5;
+}
 
 a:hover {
   color: blue;
   border-bottom: 2px solid;
   cursor: pointer;
 }
+
+
+

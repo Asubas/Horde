@@ -1,3 +1,5 @@
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable selector-class-pattern */
 /* Стилизую таблицу */
 table,
 td,
@@ -8,11 +10,9 @@ tr {
 .universl {
   transform: rotate(-90deg);
 }
-
 button .strong_red {
   color: #c10202;
 }
-
 .modal_picture {
   position: fixed;
   top: 50%;
@@ -36,21 +36,21 @@ button .strong_red {
   content: '';
   position: absolute;
   cursor: pointer;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   width: 21px;
   height: 21px;
-  background-image: url(../img/close-cross.svg);
+  background-image: url("../img/close-cross.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 1;
 }
-
 .close_twins:hover,
 .close_window:hover,
 .close_pets:hover {
   animation: rotation 1s infinite;
 }
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -59,7 +59,6 @@ button .strong_red {
     transform: rotate(360deg);
   }
 }
-
 .nULLD,
 .estra {
   width: 100px;
