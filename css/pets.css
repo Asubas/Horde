@@ -1,10 +1,13 @@
+/* stylelint-disable selector-class-pattern */
+
 .div_pets{
     width: 1000px;
     background-color: #aa7926fc;
     margin: auto;
     padding: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
+
 .button_cont{
     display: flex;
     align-content: end;
@@ -12,16 +15,19 @@
     width: 100%;
     top: 0;
 }
+
 .close_pets{
     position: relative;
     left: 977px;
     top: 270px;
 }
+
 .pets_img{
     max-width: 165px;
     height: auto;
     cursor: pointer;
 }
+
 .pets_list{
     list-style: none;
     display: flex;
@@ -29,11 +35,13 @@
     justify-content: center;
     align-items: baseline;
     padding: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
+
 .pets_img:hover{
     animation: zoom 3s;
 }
+
 @keyframes zoom {
     0%{
     transform: scale(1.2);
@@ -48,5 +56,5 @@
 
 /* списек петов */
 ul li:last-child{
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
