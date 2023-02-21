@@ -17,16 +17,16 @@ button .strong_red {
   color: #c10202;
 }
 
-.modal_picture {
+.modal-hero {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.close_twins,
+.modal-hero__button-close,
 .modal-table__button-close,
-.close_pets {
+.close-pets__button {
   position: absolute;
   top: 11px;
   right: 24px;
@@ -36,9 +36,9 @@ button .strong_red {
   height: 21px;
 }
 
-.close_twins::after,
+.modal-hero__button-close::after,
 .modal-table__button-close::after,
-.close_pets::after {
+.close-pets__button::after {
   content: "";
   position: absolute;
   cursor: pointer;
@@ -53,9 +53,9 @@ button .strong_red {
   opacity: 1;
 }
 
-.close_twins:hover,
+.modal-hero__button-close:hover,
 .modal-table__button-close:hover,
-.close_pets:hover {
+.close-pets__button:hover {
   animation: rotation 1s infinite;
 }
 

@@ -40,7 +40,7 @@ const pets = [
 
 const pets_show = document.querySelector('.main-navigation__list-button-pets');
 const pets_back = document.querySelector('.pet-page');
-const pets_close = document.querySelector('.close_pets')
+const pets_close = document.querySelector('.close-pets__button')
 const hidden_table = document.querySelector('.modal-table')
 
 pets_show.addEventListener('click', function () {
@@ -61,7 +61,7 @@ pets_show.addEventListener('click', function () {
   })
 
 
-  const containerButtonsPets = document.querySelectorAll('.button_pet');
+  const containerButtonsPets = document.querySelectorAll('.pet-page__visually-pet');
  
   function showPictures(src = '') {
     
@@ -88,16 +88,16 @@ pets_show.addEventListener('click', function () {
   const button__pet_rez_12 = document.querySelector('.pet-page__button-rez_12');
   
 
-  const pet_6rez = document.querySelectorAll('.button_pet')
+  const pet_6rez = document.querySelectorAll('.pet-page__visually-pet')
 
   button__pet_rez_6.addEventListener('click', function(evt){
     evt.preventDefault();
     for( let b =0; b < pet_6rez.length; b++){
-    if( pet_6rez[b].classList.contains('6-rez')){
+    if( pet_6rez[b].classList.contains('pet-page__6-rez')){
       pet_6rez[b].classList.remove('visually_hidden');
       console.log('raborat blyat')
     }
-    if(!pet_6rez[b].classList.contains('6-rez')){
+    if(!pet_6rez[b].classList.contains('pet-page__6-rez')){
       pet_6rez[b].classList.add('visually_hidden')
     }
   }
@@ -107,10 +107,10 @@ pets_show.addEventListener('click', function () {
   button__pet_rez_9.addEventListener('click', function(evt){
     evt.preventDefault();
     for( let b =0; b < pet_6rez.length; b++){
-    if( pet_6rez[b].classList.contains('9-rez')){
+    if( pet_6rez[b].classList.contains('pet-page__9-rez')){
       pet_6rez[b].classList.remove('visually_hidden');
       console.log('raborat blyat')
-    }if(!pet_6rez[b].classList.contains('9-rez') ){
+    }if(!pet_6rez[b].classList.contains('pet-page__9-rez') ){
       pet_6rez[b].classList.add('visually_hidden')
     }
   }
@@ -119,11 +119,11 @@ pets_show.addEventListener('click', function () {
   button__pet_rez_12.addEventListener('click', function(evt){
     evt.preventDefault();
     for( let b =0; b < pet_6rez.length; b++){
-    if( pet_6rez[b].classList.contains('12-rez')){
+    if( pet_6rez[b].classList.contains('pet-page__12-rez')){
       pet_6rez[b].classList.remove('visually_hidden');
       console.log('raborat blyat')
     }
-    if(!pet_6rez[b].classList.contains('12-rez') ){
+    if(!pet_6rez[b].classList.contains('pet-page__12-rez') ){
       pet_6rez[b].classList.add('visually_hidden')
     }
   }

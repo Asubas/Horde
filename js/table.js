@@ -20,7 +20,7 @@
 
 // const aa = document.querySelectorAll('a');
 // const i = aa.length;
-// const modal = document.querySelectorAll('.modal_picture')
+// const modal = document.querySelectorAll('.modal-hero')
 // const modalLength = modal.length;
 
 
@@ -353,7 +353,7 @@ const links = [
   
   
   const containerButtons = document.querySelectorAll('.table__button-hero');
-  const modal = document.querySelector('.modal_picture');
+  const modal = document.querySelector('.modal-hero');
   
   function showPicture(src = '') {
     
@@ -372,7 +372,7 @@ const links = [
     elem.addEventListener('click', () => showPicture(imgSrc)); // добавляешь эвент на кнопку в котором прокидываешь в функцию параметр src для картинки
   });
 
-const twins_picture_close = document.querySelector('.close_twins')
+const twins_picture_close = document.querySelector('.modal-hero__button-close')
 
   twins_picture_close.addEventListener('click',function(evt) {
      evt.preventDefault();

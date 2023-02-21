@@ -10,7 +10,7 @@
   padding-bottom: 0;
 }
 
-.button_cont {
+.close-pets__container {
   display: flex;
   align-content: end;
   position: absolute;
@@ -18,7 +18,7 @@
   top: 0;
 }
 
-.close_pets {
+.close-pets__button {
   position: relative;
   left: 977px;
   top: 270px;
@@ -44,18 +44,6 @@
   animation: zoom 3s;
 }
 
-.button_cont {
-  display: flex;
-  align-content: end;
-  position: absolute;
-  width: 100%;
-  top: 0;
-}
-.close_pets {
-  position: relative;
-  left: 977px;
-  top: 270px;
-}
 .pets_img {
   max-width: 165px;
   height: auto;
@@ -81,7 +69,7 @@
 }
 
 /* Кнопочки петов */
-.button_pet {
+.pet-page__visually-pet {
   background: none;
   border: none;
 }
