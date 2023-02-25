@@ -13,6 +13,7 @@
     <link rel='stylesheet' href='css/pets.css' />
     <link rel='stylesheet' href='css/button-pm.css' />
     <link rel='stylesheet' href='css/test--pm-visually.css'>
+    <link rel='stylesheet' href='css/scrambl.css'>
     <title>Horde</title>
   </head>
   <body>
@@ -35,7 +36,9 @@
       <div class='modal-table visually_hidden'>
         <button class='modal-table__button-close'></button>
         <div class='table'>
-          <button type="button" class="table__button-pm pm">ПМ</button>
+          <button type="button" class="table__button pm">ПМ</button>
+          <button type="button" class="table__button scrambl">Скрамбл</button>
+          <button type="button" class="table__button abyssal">Бездна</button>
           <table>
             <tr>
               <th></th>
@@ -55,10 +58,11 @@
               <td><button type='button' data-id='twins' class='table__button-hero pm'>Илия и Лейла <strong class='strong_red'>20</strong>(30) /<strong class='strong_red'>9</strong>/<strong class='strong_red'>e33</strong>(e38)</button>
               </td>
               <td><button type='button' data-id='zolik' class = 'table__button-hero'>Золрат 30/9/e41+(e60+)</button></td>
-              <td><button type='button' data-id='estra' class = 'table__button-hero pm'>Эстрильда 20(30)/9/e30</button></td>
-              <td><button type='button' data-id='anasta' class = 'table__button-hero'>Анаста 30/9+(18)/е30+(е60+) 5*</button></td>
+              <td><button type='button' data-id='estra' class = 'table__button-hero pm'><img class="test_1" src ="img/icons/Estrilda_Ascended.png">Эстрильда 20(30)/9/e30</button></td>
+              <!-- <td><button type='button' data-id='anasta' class = 'table__button-hero'>Анаста 30/9+(18)/е30+(е60+) 5*</button></td> -->
+              <td><button type='button' data-id='anasta' class = 'table__button-hero scrambl pm'><img class="test_1" src="img/icons/Anasta_Ascended.png"></button></td>
               <td><button type='button' data-id='mishka' class = 'table__button-hero pm'>Мишка 30/9/е60+</button></td>
-              <td><button type='button' data-id='greshul' class = 'table__button-hero'>Грежул 30/9/60(е61-е66)</button></td>
+              <td><button type='button' data-id='greshul' class = 'table__button-hero scrambl'>Грежул 30/9/60(е61-е66)</button></td>
               <td><button type='button' data-id='janna' class = 'table__button-hero'>Жанна д’Арк 20(30)/3(9)/e30(е60)</button></td>
             </tr>
             <tr>
@@ -240,10 +244,11 @@
       </p>
     </footer>
   </div>
-
+ 
     <script src='js/horde.js'></script>
     <script src='js/table.js'></script>
     <script src='js/pets.js'></script>
     <script src="js/test--pm-visually.js"></script>
+    <script src="js/scrambl.js"></script>
   </body>
 </html>

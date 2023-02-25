@@ -1,4 +1,4 @@
-.table__button-pm {
+.table__button {
     top: -20px;
     position: relative;
     left: -500px;
@@ -7,8 +7,9 @@
     border-radius: 10%;
     border: 2px solid green;
     background-color: #d14646;
+    padding-left: 30px;
 }
-.table__button-pm:hover {
+.table__button:hover {
     color: blue;
     cursor: pointer;
 }

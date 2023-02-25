@@ -47,7 +47,7 @@ button .strong_red {
   width: 21px;
   height: 21px;
  
-  background-image: url(../img/close-cross.svg);
+  background-image: url(../img/icons/cross_2.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 1;
@@ -56,19 +56,14 @@ button .strong_red {
 .modal-hero__button-close:hover,
 .modal-table__button-close:hover,
 .close-pets__button:hover {
-  animation: rotation 1s infinite;
+  animation: zoom 3s infinite;
 }
 
-@keyframes rotation {
+@keyframes zoom {
   0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
+    transform: scale(1.2);
   }
 }
-
 .nULLD,
 .estra {
   width: 100px;
@@ -80,6 +75,12 @@ button .strong_red {
 .table__button-hero {
   background-color: inherit;
   border: none;
+  display: flex;
+}
+.test_1{
+  width: 50px;
+  height: 50px;
+  margin: auto;
 }
 
 .table__button-hero:hover {
