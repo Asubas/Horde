@@ -15,3 +15,7 @@
 .table__button.razlom{
     width: 110px;
 }
+
+.razlom-visually{
+    background-color: dimgray;
+}

@@ -12,10 +12,11 @@
     opacity: 1;
     background-size: cover;
 }
+
 .table__button.worldboss{
 top: -28px;
 width: 140px;
-};
+}
 
 .worldboss-visually{
      background-color: pink;

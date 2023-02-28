@@ -9,11 +9,11 @@ guide.addEventListener('click', function () {
   if(pet_watch.classList.contains('modal_show')){
     pet_watch.classList.remove('modal_show');
     pet_watch.classList.add('visually_hidden')
-    console.log('andrey')
+   
   }
   guide_vusually.classList.remove('visually_hidden');
   guide_vusually.classList.add('modal_show');
-  console.log('andrey - loh')
+
 });
 
 
