@@ -1,0 +1,15 @@
+.table__button.abyssal::after{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left: -10px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+   
+    background-image: url(../img/icons/abyssal.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 1;
+    background-size: cover;
+}

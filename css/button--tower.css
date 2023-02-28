@@ -1,0 +1,17 @@
+.table__button.tower::after{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left: -3px;
+    top: -3px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icons/tower.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 1;
+    background-size: cover;
+}
+.table__button.tower{
+    width: 110px;
+}

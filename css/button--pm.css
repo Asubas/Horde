@@ -1,12 +1,12 @@
 .table__button {
     top: -20px;
     position: relative;
-    left: -500px;
+    /* left: -500px; */
     width: 100px;
     height: 50px;
     border-radius: 10%;
     border: 2px solid green;
-    background-color: #d14646;
+    background-color: #a3a4f5;
     padding-left: 30px;
 }
 .table__button:hover {

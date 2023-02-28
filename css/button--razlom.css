@@ -1,0 +1,17 @@
+.table__button.razlom::after{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left: -3px;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/icons/razlom.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 1;
+    background-size: cover;
+}
+.table__button.razlom{
+    width: 110px;
+}

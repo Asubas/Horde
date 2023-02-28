@@ -1,0 +1,20 @@
+.table__button.grund-hunt::after{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left: -3px;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/icons/grund-hunt.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 1;
+    background-size: cover;
+}
+
+
+.table__button.grund-hunt{
+    top: -28px;
+    width: 120px;
+}
