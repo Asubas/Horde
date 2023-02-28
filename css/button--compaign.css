@@ -16,3 +16,7 @@
 .table__button.campaign{
     width: 120px;
 }
+
+.campaign-visually{
+    background-color: black;
+}

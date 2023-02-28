@@ -15,3 +15,7 @@
 .table__button.tower{
     width: 110px;
 }
+
+.tower-visually{
+    background-color: chartreuse;
+}
