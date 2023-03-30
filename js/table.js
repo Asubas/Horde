@@ -1,41 +1,4 @@
-// const table_window = document.querySelector('.table_window');
-// const twins_a = document.querySelector('.twins');
-// const twins_picture = document.querySelector('.Twins_image')
 
-
-
-// twins_a.addEventListener('click', function(evt){
-//     evt.preventDefault();
-//     twins_picture.classList.remove('visually_hidden');
-//     twins_picture.classList.add('modal_show')
-//     console.log('twins twins')
-
-// });
-
-
-
-
-
-
-
-// const aa = document.querySelectorAll('a');
-// const i = aa.length;
-// const modal = document.querySelectorAll('.modal-hero')
-// const modalLength = modal.length;
-
-
-
-// for( let b = 0; b < i; b++){
-//     aa[b].addEventListener('click',showPicture);
-// };
-// function showPicture(){
-//      for( let n = 0; n < modalLength ; n++){
-//     modal[n].classList.remove('visually_hidden');
-//     modal[n].classList.add('modal_show');
-//     console.log('break')
-    
-// }
-// };
 const links = [
     {
       dataId: 'twins',

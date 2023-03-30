@@ -6,7 +6,6 @@ pm_visually[4].addEventListener('click', function(){
     for (let i = 0; i < pvp.length; i++){
     if (pvp[i].classList.contains('pvp-visually') ){
         pvp[i].classList.remove('pvp-visually');
-        console.log('rabotaet')
     }else{
         pvp[i].classList.add('pvp-visually')
     }

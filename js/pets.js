@@ -95,7 +95,6 @@ pets_show.addEventListener('click', function () {
     for( let b =0; b < pet_6rez.length; b++){
     if( pet_6rez[b].classList.contains('pet-page__6-rez')){
       pet_6rez[b].classList.remove('visually_hidden');
-      console.log('raborat blyat')
     }
     if(!pet_6rez[b].classList.contains('pet-page__6-rez')){
       pet_6rez[b].classList.add('visually_hidden')
@@ -109,7 +108,6 @@ pets_show.addEventListener('click', function () {
     for( let b =0; b < pet_6rez.length; b++){
     if( pet_6rez[b].classList.contains('pet-page__9-rez')){
       pet_6rez[b].classList.remove('visually_hidden');
-      console.log('raborat blyat')
     }if(!pet_6rez[b].classList.contains('pet-page__9-rez') ){
       pet_6rez[b].classList.add('visually_hidden')
     }
@@ -121,7 +119,6 @@ pets_show.addEventListener('click', function () {
     for( let b =0; b < pet_6rez.length; b++){
     if( pet_6rez[b].classList.contains('pet-page__12-rez')){
       pet_6rez[b].classList.remove('visually_hidden');
-      console.log('raborat blyat')
     }
     if(!pet_6rez[b].classList.contains('pet-page__12-rez') ){
       pet_6rez[b].classList.add('visually_hidden')
