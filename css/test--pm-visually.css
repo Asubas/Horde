@@ -1,5 +1,5 @@
 .test--pm-visually{
-    background-color: green;
+    box-shadow: 0 0 10px gold, 0 0 40px gold, 0 0 80px gold;
     border: 3px solid black;
 }
 .table__button.pm::after{

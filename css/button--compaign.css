@@ -18,5 +18,5 @@
 }
 
 .campaign-visually{
-    background-color: black;
+    box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
 }

@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: 50% 50%;
     margin: auto;
+    border-radius: 10px 0px 19px 0px;
 }
 
 .twins{
@@ -238,3 +239,5 @@
 .pbaden{
     background-image: url(../img/icons/Baden_Awakened_Ascended.png);
 }
+
+

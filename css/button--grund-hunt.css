@@ -19,5 +19,5 @@
     width: 120px;
 }
 .grund-hunt-visually{
-    background-color: darkorange;
+    box-shadow: 0 0 10px darkorange, 0 0 40px darkorange, 0 0 80px darkorange;
 }

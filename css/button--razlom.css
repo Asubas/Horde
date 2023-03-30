@@ -17,5 +17,4 @@
 }
 
 .razlom-visually{
-    background-color: dimgray;
-}
+    box-shadow: 0 0 10px dimgray, 0 0 40px dimgray, 0 0 80px dimgray;}

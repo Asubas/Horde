@@ -15,5 +15,5 @@
 }
 
 .abyssal-visually{
-    background-color: blue;
+    box-shadow: 0 0 10px blue, 0 0 40px blue, 0 0 80px blue;
 }
