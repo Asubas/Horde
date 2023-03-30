@@ -391,4 +391,7 @@ const twins_picture_close = document.querySelector('.modal-hero__button-close')
   });
 
 
+
+  
+
   //const guide = document.querySelector('.main-navigation__list-button');
