@@ -9,6 +9,9 @@ tr {
   border-collapse: collapse;
   margin: auto;
 }
+.table{
+  position: relative;
+}
 .table__button {
   top: -20px;
   position: relative;
