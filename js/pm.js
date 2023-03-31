@@ -4,10 +4,10 @@ const pm = document.querySelectorAll('.pm');
 
 pm_visually[0].addEventListener('click', function(){
     for (let i = 0; i < pm.length; i++){
-    if (pm[i].classList.contains('test--pm-visually') ){
-        pm[i].classList.remove('test--pm-visually');
+    if (pm[i].classList.contains('pm-visually') ){
+        pm[i].classList.remove('pm-visually');
     }else{
-        pm[i].classList.add('test--pm-visually')
+        pm[i].classList.add('pm-visually')
     }
 }
 })

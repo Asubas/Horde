@@ -17,4 +17,6 @@
 }
 
 .tower-visually{
-    box-shadow: 0 0 10px chartreuse, 0 0 40px chartreuse, 0 0 80px chartreuse;}
+    box-shadow: 0 0 10px chartreuse, 0 0 40px chartreuse, 0 0 80px chartreuse;
+    background-color: chartreuse;
+}

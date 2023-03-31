@@ -1,7 +1,27 @@
-
 .table__button:hover {
     color: blue;
     cursor: pointer;
 }
+
+.pm-visually{
+    box-shadow: 0 0 10px gold, 0 0 40px gold, 0 0 80px gold;
+    background-color: gold;
+}
+.table__button.pm::after{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+   
+    background-image: url(../img/icons/pm.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 1;
+    background-size: cover;
+}
+
 
 

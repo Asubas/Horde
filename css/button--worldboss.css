@@ -20,4 +20,5 @@ width: 140px;
 
 .worldboss-visually{
     box-shadow: 0 0 10px pink, 0 0 40px pink, 0 0 80px pink;
+    background-color: pink;
 }
