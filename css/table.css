@@ -115,14 +115,14 @@ td{
 
 
 
-.button{
+/* .button{
   position: relative;
   display: inline-block;
   padding: 15px 30px;
   overflow: hidden;
   transition: 0.2s;
-}
-.button__line{
+} */
+/* .button__line{
   position: absolute;
   display: block;
 }
@@ -185,4 +185,4 @@ background:linear-gradient(90deg,transparent,red);
         transition-delay: 1s;
         box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
         background-color: red;
-      }
+      } */
