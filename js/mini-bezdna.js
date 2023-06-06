@@ -2,7 +2,7 @@
 const mini = document.querySelectorAll('.mini-bezdna');
 
 
-pm_visually[3].addEventListener('click', function(){
+pm_visually[2].addEventListener('click', function(){
     for (let i = 0; i < mini.length; i++){
     if (mini[i].classList.contains('mini-bezdna-visually') ){
         mini[i].classList.remove('mini-bezdna-visually');

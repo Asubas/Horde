@@ -107,7 +107,15 @@ td{
 }
 
 
-
+.header__table{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+  flex-wrap: nowrap;
+}
 
 
 
