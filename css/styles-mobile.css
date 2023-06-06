@@ -17,6 +17,7 @@ tr,
 
 .header__table{
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 table{
@@ -26,4 +27,14 @@ table{
 .modal-hero{
     max-width: 100%;
     overflow-x: scroll;
+}
+
+.table,
+.header__table{
+    padding: 0;
+}
+
+th{
+    transform: rotate(-90deg);
+    font-size: 10px;
 }

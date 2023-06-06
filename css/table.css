@@ -18,6 +18,8 @@ tr {
   border: 2px solid green;
   background-color: #a3a4f5;
   padding-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 button .strong_red {
