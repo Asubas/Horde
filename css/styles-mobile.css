@@ -1,0 +1,29 @@
+.body__page{
+    background-position: center;
+}
+
+table,
+tbody,
+tr,
+.body__page,
+.pet-page,
+.header__table,
+tr,
+.modal-table
+{
+    max-width: 100%;
+    margin: 0px;
+}
+
+.header__table{
+    flex-wrap: wrap;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+.modal-hero{
+    max-width: 100%;
+    overflow-x: scroll;
+}
