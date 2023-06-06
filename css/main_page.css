@@ -64,18 +64,9 @@ ul li {
 }
 .modal-table__button-close {
   position: relative;
-  top: 15px;
-  left: 620px;
+  top: 30px;
+  left: 650px;
 }
-
-
-.modal-table__button-close {
-  position: relative;
-  top: 15px;
-  left: 620px;
-}
-
-
 /* Стилизую выпадающие окна */
 .modal-table {
   background-color: #aa7926fc;
