@@ -317,6 +317,7 @@ const links = [
   
   const containerButtons = document.querySelectorAll('.table__button-hero');
   const modal = document.querySelector('.modal-hero');
+  const finger = document.querySelectorAll('.mobile__th');
   
   function showPicture(src = '') {
     
@@ -352,16 +353,18 @@ const twins_picture_close = document.querySelector('.modal-hero__button-close')
   }
   }
   });
-
+  if (window.innerWidth < 768) {
+    for( let i = 0; i < finger.length; i++){
+    finger[i].classList.add('visually_hidden');
+  }
+  }else{
+    for( let i = 0; i < finger.length; i++){
+    finger[i].classList.remove('visually_hidden');
+    }
+  }
+    
 
 
   
 
   //const guide = document.querySelector('.main-navigation__list-button');
-
-
-    if (window.innerWidth < 768) {
-  
-      document.getElementById("yuu").classList.add("visually_hidden");
-
-    } 

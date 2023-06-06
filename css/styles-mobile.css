@@ -38,3 +38,62 @@ th{
     transform: rotate(-90deg);
     font-size: 10px;
 }
+
+td{
+    width: 100%;
+    height: 100%;
+}
+
+.table__button-hero{
+width: 100%;
+}
+
+.pm-visually,
+.scrambl-visually,
+.abyssal-visually,
+.mini-bezdna-visually,
+.pvp-visually,
+.campaign-visually,
+.tower-visually,
+.worldboss-visually,
+.razlom-visually,
+.grund-hunt-visually,
+.fear-visually{
+    box-shadow: none;
+    background-color: inherit;
+    
+}
+.pm-visually{
+    border: 4px dashed yellow;
+}
+.scrambl-visually{
+    border: 4px dashed red;
+}
+.abyssal-visually{
+    border: 4px dashed blue;
+}
+.mini-bezdna-visually{
+    border: 4px dashed blueviolet;
+}
+.pvp-visually{
+    border: 4px dashed aliceblue;
+}
+.campaign-visually{
+    border: 4px dashed black;
+}
+.tower-visually{
+    border: 4px dashed chartreuse;
+}
+.worldboss-visually{
+    border: 4px dashed pink;
+}
+.razlom-visually{
+    border: 4px dashed dimgray;
+}
+.grund-hunt-visually{
+    border: 4px dashed darkorange;
+}
+
+.fear-visually{
+    border: 4px dashed pink;
+}
