@@ -28,10 +28,38 @@ guide.addEventListener('click', function () {
   });
 
 
-  button_close.addEventListener('click', function (evt) {
+button_close.addEventListener('click', function (evt) {
   evt.preventDefault();
   guide_vusually.classList.remove('modal_show');
   guide_vusually.classList.add('visually_hidden');
 });
 
 
+// window.addEventListener('click', function (event) {
+//   if ((window.innerWidth < 768) && guide_vusually.classList.contains('modal_show') ) {
+//     console.log('andrey');
+//       if(event.target !== guide_vusually){
+//       guide_vusually.classList.remove('modal_show');
+//       guide_vusually.classList.add('visually_hidden');
+//       console.log('andrey2');
+//   }
+//   }
+// });
+
+// function handleClickOutside(event) {
+//   if (!guide_vusually?.current?.contains(event.target)) {
+//     if ((window.innerWidth < 768) && guide_vusually.classList.contains('modal_show') ) {
+//       console.log('ne yspel')
+//         if(event.target !== guide_vusually){
+//         guide_vusually.classList.remove('modal_show');
+//         guide_vusually.classList.add('visually_hidden');
+//         console.log('rabotaem')
+//     }
+//     }
+//   }
+//  }
+
+//  document.addEventListener('mousedown', handleClickOutside);
+
+// const modal = document.querySelector('.modal-table');
+// console.log(modal)

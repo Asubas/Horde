@@ -37,6 +37,7 @@ table{
 th{
     transform: rotate(-90deg);
     font-size: 10px;
+    width: 30px;
 }
 
 td{
@@ -96,4 +97,18 @@ width: 100%;
 
 .fear-visually{
     border: 4px dashed pink;
+}
+span{
+    display: none;
+}
+.mobile__th{
+    transform: rotate(90deg);
+}
+
+
+.main-navigation__list > li{
+    padding: 0;
+}
+.main-navigation__list > li:nth-child(odd):not(:last-child){
+  padding-right: 30px;
 }

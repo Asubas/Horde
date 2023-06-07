@@ -353,9 +353,10 @@ const twins_picture_close = document.querySelector('.modal-hero__button-close')
   }
   }
   });
-  if (window.innerWidth < 768) {
+
+  if (window.innerWidth > 768) {
     for( let i = 0; i < finger.length; i++){
-    finger[i].classList.add('visually_hidden');
+     finger[i].classList.add('visually_hidden');
   }
   }else{
     for( let i = 0; i < finger.length; i++){
