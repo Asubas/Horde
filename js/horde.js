@@ -2,6 +2,7 @@ const guide = document.querySelector('.main-navigation__list-button');
 const guide_vusually = document.querySelector('.modal-table');
 const hidden = document.querySelector('.visually_hidden');
 const button_close = document.querySelector('.modal-table__button-close');
+// const button_close_mobile = document.querySelector('.modal-table_mobile__button-close');
 const pet_watch = document.querySelector('.pet-page')
 
 
@@ -34,17 +35,23 @@ button_close.addEventListener('click', function (evt) {
   guide_vusually.classList.add('visually_hidden');
 });
 
-
-// window.addEventListener('click', function (event) {
-//   if ((window.innerWidth < 768) && guide_vusually.classList.contains('modal_show') ) {
-//     console.log('andrey');
-//       if(event.target !== guide_vusually){
-//       guide_vusually.classList.remove('modal_show');
-//       guide_vusually.classList.add('visually_hidden');
-//       console.log('andrey2');
-//   }
-//   }
+// button_close_mobile.addEventListener('click', function (evt) {
+//   evt.preventDefault();
+//   guide_vusually.classList.remove('modal_show');
+//   guide_vusually.classList.add('visually_hidden');
 // });
+
+
+   const modal1 = document.querySelector('.frenk');
+window.addEventListener('click', function (event) {
+    if ((window.innerWidth < 768) && guide_vusually.classList.contains('modal_show') && event.target !== guide) {
+      if(!guide_vusually.contains(event.target)  && event.target !== modal1){
+        guide_vusually.classList.remove('modal_show');
+        guide_vusually.classList.add('visually_hidden');
+      }
+    }
+  });
+
 
 // function handleClickOutside(event) {
 //   if (!guide_vusually?.current?.contains(event.target)) {

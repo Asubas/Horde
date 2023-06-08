@@ -112,3 +112,6 @@ td{
   padding: 20px;
   flex-wrap: nowrap;
 }
+.modal-table_mobile__button-close{
+  display: none;
+}

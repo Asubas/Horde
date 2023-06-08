@@ -369,3 +369,11 @@ const twins_picture_close = document.querySelector('.modal-hero__button-close')
   
 
   //const guide = document.querySelector('.main-navigation__list-button');
+  modal.addEventListener('click', function (event) {
+    if (window.innerWidth < 768)  {
+      if(event.target !== modal){
+        modal.classList.remove('modal_show');
+        modal.classList.add('visually_hidden');
+      }
+    }
+  });

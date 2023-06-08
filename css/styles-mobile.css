@@ -112,3 +112,30 @@ span{
 .main-navigation__list > li:nth-child(odd):not(:last-child){
   padding-right: 30px;
 }
+.modal-hero__button-close{
+    display: none;
+}
+/* .modal-table_mobile__button-close{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 758px;
+    left: 162px;
+    border: none;
+    background-color: transparent;
+}
+.modal-table_mobile__button-close::after{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icons/cross.webp);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    opacity: 1;
+    background-size: cover;
+} */
